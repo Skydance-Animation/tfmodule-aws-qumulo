@@ -218,3 +218,4 @@ tagvols () {
     aws ec2 create-tags --region $region --resources ${bootIDs[@]} --tags "Key=Name,Value=$stack_name-boot"
   fi
 }
+# test
